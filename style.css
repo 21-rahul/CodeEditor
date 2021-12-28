@@ -193,7 +193,7 @@ html{
  .navigation{
     position:fixed;
     left:-32rem;
-    width:35rem;
+    width:28rem;
     height:100%;
     transition: left .5s;
     display:flex;
@@ -203,7 +203,7 @@ html{
  }
  .navigation-header{
     font-family: 'Mulish', sans-serif;
-    font-size:3.5rem;
+    font-size:2.5rem;
     font-weight:bold;
     letter-spacing:.2rem;
     color:#fff;
@@ -237,7 +237,7 @@ html{
  }
  
  .navigation-search-input{
-    width:30rem;
+    width:25rem;
     padding:1rem 2rem;
     background-color:rgba(0,0,0,.3);
     font-family:'Josefin sans',sans-serif;
@@ -268,12 +268,24 @@ html{
     margin-left: 1000px;
  }
  
+ .banner{
+    background-image: url('./pexels-photo-1779487.jpeg');
+    height: 100vh;
+    background-position: center top;
+    background-size: cover;
+}
 
-
-
-
-
-
-
-
- 
+.content  h1{
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+}
+.content h3{
+    color: #fff;
+    font-size: 22px;
+}
+.content{
+    top: 10%;
+    left: 25%;
+    position: absolute;
+}
